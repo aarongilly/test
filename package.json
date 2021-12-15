@@ -1,0 +1,35 @@
+{
+  "name": "typescript-fullstack",
+  "version": "0.0.1",
+  "description": "A server side TypeScript app that uses WebPack to support TypeScript frontends.",
+  "main": "server.ts",
+  "scripts": {
+    "prestart": "npm run buildclient",
+    "start": "ts-node src/server.ts",
+    "buildclient": "webpack"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ts-node": "latest",
+    "tsconfig-paths": "latest",
+    "typescript": "latest",
+    "ts-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "@types/node": "latest"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "typescript",
+    "webpack",
+    "express"
+  ]
+}
